@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/bored-api-fetch-react/static/css/main.bb21501b.css",
+    "main.js": "/bored-api-fetch-react/static/js/main.a16f8134.js",
+    "index.html": "/bored-api-fetch-react/index.html",
+    "main.bb21501b.css.map": "/bored-api-fetch-react/static/css/main.bb21501b.css.map",
+    "main.a16f8134.js.map": "/bored-api-fetch-react/static/js/main.a16f8134.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb21501b.css",
+    "static/js/main.a16f8134.js"
+  ]
+}
