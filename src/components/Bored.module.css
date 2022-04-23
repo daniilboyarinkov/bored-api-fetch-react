@@ -1,0 +1,144 @@
+h1,
+h2 {
+  user-select: none;
+}
+
+form {
+  margin: 1rem auto;
+  padding: 3rem;
+  width: fit-content;
+
+  border: 0.2rem solid var(--act-color);
+  border-radius: 2rem;
+  box-shadow: 0 0 2rem var(--second-color);
+
+  color: var(--main-color);
+  background-color: var(--second-color);
+
+  user-select: none;
+  text-align: right;
+}
+
+input[type='submit'] {
+  display: block;
+  margin: auto;
+  margin-top: 3rem;
+  padding: 1.1rem;
+  border: 0.2rem solid var(--act-color);
+  border-radius: 1rem;
+  color: var(--main-color);
+  background-color: var(--second-color);
+  box-shadow: 0 0 1rem var(--main-color);
+
+  transform: skew(-10deg);
+}
+
+input[type='submit']:hover {
+  box-shadow: 0 0 3rem var(--main-color);
+  cursor: pointer;
+}
+
+select {
+  padding: 0.4rem;
+  margin-bottom: 2rem;
+  color: var(--main-color);
+  background-color: var(--second-color);
+  border: 0.2rem solid var(--act-color);
+  border-radius: 0.4rem;
+  box-shadow: 0 0 1rem var(--main-color);
+}
+
+input[type='number'] {
+  font-size: large;
+  height: 2rem;
+  appearance: textfield;
+  outline: none;
+  text-align: center;
+  width: 8rem;
+  padding: 0.4rem;
+  background-color: var(--second-color);
+  color: var(--main-color);
+  border: 0.2rem solid transparent;
+  border-radius: 0.4rem;
+  box-shadow: 0 0 1rem var(--main-color);
+}
+
+.container {
+  width: 80vw;
+  margin: 2rem auto;
+}
+
+.number {
+  display: inline-block;
+  position: relative;
+}
+
+.numberMinus,
+.numberPlus {
+  font-size: large;
+  user-select: none;
+  position: absolute;
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+  background-color: var(--second-color);
+  color: var(--act-color);
+  outline: none;
+  border: 0.2rem solid transparent;
+  border-radius: 0.1rem;
+  width: 20%;
+  height: 100%;
+}
+
+.numberMinus:hover,
+.numberPlus:hover {
+  color: var(--main-color);
+  cursor: pointer;
+}
+
+.numberPlus {
+  left: 80%;
+  border-left: none;
+}
+
+.numberMinus {
+  left: 0;
+  border-right: none;
+}
+
+.advice {
+  user-select: contain;
+}
+
+.advice::selection,
+.advice > b::selection {
+  background-color: var(--second-color);
+  color: var(--main-color);
+}
+
+@media (min-width: 721px) {
+  label {
+    float: left;
+    margin-right: 2rem;
+  }
+}
+
+@media (max-width: 720px) {
+  form {
+    text-align: center;
+  }
+  label {
+    text-shadow: 0 0 1rem var(--second-color);
+    margin-bottom: 2rem;
+  }
+  input[type='number'] {
+    box-shadow: 0 0 0.5rem var(--main-color);
+  }
+  input[type='submit'] {
+    box-shadow: 0 0 0.5rem var(--main-color);
+  }
+  select {
+    border: 0.2rem solid transparent;
+    box-shadow: 0 0 0.5rem var(--main-color);
+  }
+}
