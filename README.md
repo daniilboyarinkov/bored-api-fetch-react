@@ -7,6 +7,8 @@ That is my ***pet project*** that fetches bored-api: **boredapi.com**.
 ![preview](./for_readme/preview.jpg)
 
 
+## **[Ссылка на проект](https://daniilboyarinkov.github.io/bored-api-fetch-react/)**
+
 What have I used while making that poject?
 1. React functional components
 2. React hooks 
