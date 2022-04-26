@@ -1,0 +1,20 @@
+.toggleBtn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 1rem;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-radius: 50%;
+}
+
+.toggleBtn:active {
+    scale: .9;
+}
+
+svg {
+    fill: var(--second-color);
+    border: none;
+    border-radius: 50%;
+}
