@@ -9,6 +9,10 @@ That is my ***pet project*** that fetches bored-api: **boredapi.com**.
 
 ## **[Ссылка на проект](https://daniilboyarinkov.github.io/bored-api-fetch-react/)**
 
+In the latest version **Theme Toggle button** was added in the top right corner. 
+
+---
+
 What have I used while making that poject?
 1. React functional components
 2. React hooks 
