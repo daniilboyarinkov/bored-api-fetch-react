@@ -1,6 +1,7 @@
 h1,
 h2 {
   user-select: none;
+  color: var(--second-color);
 }
 
 form {
@@ -108,6 +109,7 @@ input[type='number'] {
 
 .advice {
   user-select: contain;
+  color: var(--second-color);
 }
 
 .advice::selection,
